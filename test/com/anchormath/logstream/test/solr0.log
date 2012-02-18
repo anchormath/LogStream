@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268964</millis>
+  <sequence>0</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>locateSolrHome</method>
+  <thread>10</thread>
+  <message>JNDI not configured for solr (NoInitialContextEx)</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268974</millis>
+  <sequence>1</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>locateSolrHome</method>
+  <thread>10</thread>
+  <message>using system property solr.solr.home: /opt/Solr/apache-solr-3.5.0/sears</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268974</millis>
+  <sequence>2</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>&lt;init&gt;</method>
+  <thread>10</thread>
+  <message>Solr home set to '/opt/Solr/apache-solr-3.5.0/sears/'</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268975</millis>
+  <sequence>3</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/jetty-6.1.26-patched-JETTY-1340.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268975</millis>
+  <sequence>4</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/jetty-LICENSE.txt' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268976</millis>
+  <sequence>5</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/jetty-NOTICE.txt' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268976</millis>
+  <sequence>6</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/jetty-util-6.1.26-patched-JETTY-1340.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268976</millis>
+  <sequence>7</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/servlet-api-2.5-20081211.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268977</millis>
+  <sequence>8</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/jsp-2.1/' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268980</millis>
+  <sequence>9</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-analysis-extras-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268980</millis>
+  <sequence>10</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-cell-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268980</millis>
+  <sequence>11</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-clustering-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268981</millis>
+  <sequence>12</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-core-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268981</millis>
+  <sequence>13</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-dataimporthandler-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268981</millis>
+  <sequence>14</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-dataimporthandler-extras-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:34:28</date>
+  <millis>1329183268981</millis>
+  <sequence>15</sequence>
+  <logger>org.apache.solr.core.SolrResourceLoader</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrResourceLoader</class>
+  <method>replaceClassLoader</method>
+  <thread>10</thread>
+  <message>Adding 'file:/opt/Solr/apache-solr-3.5.0/sears/lib/apache-solr-langid-3.5.0.jar' to classloader</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336613</millis>
+  <sequence>301</sequence>
+  <logger>org.apache.solr.search.SolrIndexSearcher</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.search.SolrIndexSearcher</class>
+  <method>warm</method>
+  <thread>11</thread>
+  <message>autowarming result for Searcher@7563a320 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336613</millis>
+  <sequence>302</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.QuerySenderListener</class>
+  <method>newSearcher</method>
+  <thread>11</thread>
+  <message>QuerySenderListener sending requests to Searcher@7563a320 main</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336628</millis>
+  <sequence>303</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>[wishlists] webapp=null path=null params={start=0&amp;event=newSearcher&amp;q=solr&amp;rows=10} hits=0 status=0 QTime=14 </message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336629</millis>
+  <sequence>304</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>[wishlists] webapp=null path=null params={start=0&amp;event=newSearcher&amp;q=rocks&amp;rows=10} hits=0 status=0 QTime=1 </message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336646</millis>
+  <sequence>305</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>[wishlists] webapp=null path=null params={event=newSearcher&amp;q=static+newSearcher+warming+query+from+solrconfig.xml} hits=1 status=0 QTime=17 </message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336646</millis>
+  <sequence>306</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.QuerySenderListener</class>
+  <method>newSearcher</method>
+  <thread>11</thread>
+  <message>QuerySenderListener done.</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336646</millis>
+  <sequence>307</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>registerSearcher</method>
+  <thread>11</thread>
+  <message>[wishlists] Registered new searcher Searcher@7563a320 main</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336646</millis>
+  <sequence>308</sequence>
+  <logger>org.apache.solr.search.SolrIndexSearcher</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.search.SolrIndexSearcher</class>
+  <method>close</method>
+  <thread>11</thread>
+  <message>Closing Searcher@5dce1bea main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336647</millis>
+  <sequence>309</sequence>
+  <logger>org.apache.solr.handler.dataimport.SolrWriter</logger>
+  <level>WARNING</level>
+  <class>org.apache.solr.handler.dataimport.SolrWriter</class>
+  <method>readIndexerProperties</method>
+  <thread>14</thread>
+  <message>Unable to read: dataimport.properties</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336658</millis>
+  <sequence>310</sequence>
+  <logger>org.apache.solr.handler.dataimport.SolrWriter</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.handler.dataimport.SolrWriter</class>
+  <method>persist</method>
+  <thread>14</thread>
+  <message>Wrote last indexed time to /opt/Solr/apache-solr-3.5.0/sears/wishlists/conf/dataimport.properties</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336658</millis>
+  <sequence>311</sequence>
+  <logger>org.apache.solr.update.processor.LogUpdateProcessor</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.update.processor.LogUpdateProcessor</class>
+  <method>finish</method>
+  <thread>14</thread>
+  <message>{deleteByQuery=*:*,add=[10001, 10501, 17503, 26503, 11501, 18005, 12501, 18004, ... (132 adds)],optimize=} 0 9</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336659</millis>
+  <sequence>312</sequence>
+  <logger>org.apache.solr.handler.dataimport.DocBuilder</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.handler.dataimport.DocBuilder</class>
+  <method>execute</method>
+  <thread>14</thread>
+  <message>Time taken = 0:0:1.603</message>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336667</millis>
+  <sequence>313</sequence>
+  <logger>org.apache.solr.handler.dataimport.JdbcDataSource</logger>
+  <level>SEVERE</level>
+  <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+  <method>closeConnection</method>
+  <thread>14</thread>
+  <message>Ignoring Error when closing connection</message>
+  <exception>
+    <message>com.ibm.db2.jcc.am.SqlException: [jcc][t4][10251][10308][3.57.82] java.sql.Connection.close() requested while a transaction is in progress on the connection.
+The transaction remains active, and the connection cannot be closed. ERRORCODE=-4471, SQLSTATE=null</message>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>660</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>u</method>
+      <line>1167</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>x</method>
+      <line>1190</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>v</method>
+      <line>1176</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>close</method>
+      <line>1160</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+      <method>closeConnection</method>
+      <line>401</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+      <method>close</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataConfig$Entity</class>
+      <method>clearCache</method>
+      <line>171</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataConfig$Entity</class>
+      <method>clearCache</method>
+      <line>162</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataConfig</class>
+      <method>clearCaches</method>
+      <line>340</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter</class>
+      <method>doFullImport</method>
+      <line>367</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter</class>
+      <method>runCmd</method>
+      <line>427</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter$1</class>
+      <method>run</method>
+      <line>408</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2012-02-13T20:35:36</date>
+  <millis>1329183336668</millis>
+  <sequence>314</sequence>
+  <logger>org.apache.solr.handler.dataimport.JdbcDataSource</logger>
+  <level>SEVERE</level>
+  <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+  <method>closeConnection</method>
+  <thread>14</thread>
+  <message>Ignoring Error when closing connection</message>
+  <exception>
+    <message>com.ibm.db2.jcc.am.SqlException: [jcc][t4][10251][10308][3.57.82] java.sql.Connection.close() requested while a transaction is in progress on the connection.
+The transaction remains active, and the connection cannot be closed. ERRORCODE=-4471, SQLSTATE=null</message>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>660</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.bd</class>
+      <method>a</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>u</method>
+      <line>1167</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>x</method>
+      <line>1190</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>v</method>
+      <line>1176</line>
+    </frame>
+    <frame>
+      <class>com.ibm.db2.jcc.am.jb</class>
+      <method>close</method>
+      <line>1160</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+      <method>closeConnection</method>
+      <line>401</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.JdbcDataSource</class>
+      <method>close</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataConfig$Entity</class>
+      <method>clearCache</method>
+      <line>171</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataConfig</class>
+      <method>clearCaches</method>
+      <line>340</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter</class>
+      <method>doFullImport</method>
+      <line>367</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter</class>
+      <method>runCmd</method>
+      <line>427</line>
+    </frame>
+    <frame>
+      <class>org.apache.solr.handler.dataimport.DataImporter$1</class>
+      <method>run</method>
+      <line>408</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2012-02-13T20:36:43</date>
+  <millis>1329183403153</millis>
+  <sequence>315</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>13</thread>
+  <message>[wishlists] webapp=/solr path=/dataimport params={} status=0 QTime=7 </message>
+</record>
+<record>
+  <date>2012-02-13T20:37:45</date>
+  <millis>1329183465993</millis>
+  <sequence>316</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>SEVERE</level>
+  <class>org.apache.solr.common.SolrException</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>org.apache.solr.common.SolrException: undefined field name
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1254)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getAnalyzer(IndexSchema.java:410)
+	at org.apache.solr.schema.IndexSchema$SolrIndexAnalyzer.reusableTokenStream(IndexSchema.java:385)
+	at org.apache.lucene.queryParser.QueryParser.getFieldQuery(QueryParser.java:574)
+	at org.apache.solr.search.SolrQueryParser.getFieldQuery(SolrQueryParser.java:158)
+	at org.apache.lucene.queryParser.QueryParser.Term(QueryParser.java:1421)
+	at org.apache.lucene.queryParser.QueryParser.Clause(QueryParser.java:1309)
+	at org.apache.lucene.queryParser.QueryParser.Query(QueryParser.java:1237)
+	at org.apache.lucene.queryParser.QueryParser.TopLevelQuery(QueryParser.java:1226)
+	at org.apache.lucene.queryParser.QueryParser.parse(QueryParser.java:206)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParserPlugin.java:80)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:142)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:101)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:173)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:129)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1372)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:356)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:252)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+</message>
+</record>
+<record>
+  <date>2012-02-13T20:37:45</date>
+  <millis>1329183465993</millis>
+  <sequence>317</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>13</thread>
+  <message>[wishlists] webapp=/solr path=/select/ params={indent=on&amp;start=0&amp;q=name:ankur&amp;version=2.2&amp;rows=10} status=400 QTime=1 </message>
+</record>
+<record>
+  <date>2012-02-13T20:38:09</date>
+  <millis>1329183489784</millis>
+  <sequence>318</sequence>
+  <logger>org.apache.solr.core.SolrCore</logger>
+  <level>INFO</level>
+  <class>org.apache.solr.core.SolrCore</class>
+  <method>execute</method>
+  <thread>13</thread>
+  <message>[wishlists] webapp=/solr path=/select/ params={indent=on&amp;start=0&amp;q=first_name:ankur&amp;version=2.2&amp;rows=10} hits=0 status=0 QTime=2 </message>
+</record>
+</log>

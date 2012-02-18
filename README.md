@@ -1,0 +1,2 @@
+This leverages tailf (https://github.com/alaz/tailf.git) to tail a log file. 
+Mainly as a learning exercise in Scala, I contribute a log parsing component. As an example I have implemented an XML parser which is aware of the repeating nodes (log records). The test case was a Solr log file which happened to be in such a format. I found it extremely unreadable in its raw format, so used this to filter out just the log level and message as pure text.

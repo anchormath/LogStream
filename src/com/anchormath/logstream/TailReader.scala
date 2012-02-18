@@ -18,20 +18,21 @@ package com.anchormath.logstream
 import com.osinka.tailf.Tail
 
 object TailReader {
-    def main(args: Array[String]): Unit = {
-        import java.io.{File, BufferedReader, InputStreamReader}
+  def start(file: String, parser: LogParser): Unit = {
+    import java.io.{ File, BufferedReader, InputStreamReader }
 
-        val f = new File(args(0))
-        val r = new BufferedReader(new InputStreamReader(Tail.follow(f)))
+    val f = new File(file)
+    val r = new BufferedReader(new InputStreamReader(Tail.follow(f)))
 
-        def read: Unit = {
-            val l = r.readLine;
-            if (l != null) {
-                println(l);
-                read
-            }
-        }
+    def read: Unit = {
 
+      val l = r.readLine;
+      if (l != null) {
+        parser.parse(l);
         read
+      }
     }
+
+    read
+  }
 }
